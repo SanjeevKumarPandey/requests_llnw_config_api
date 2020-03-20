@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup (
     name="http-config-api-sanjeev.pandey",
-    version="1.0.0",
+    version="1.0.1",
     author="Sanjeev Pandey",
     author_email="sanjeevkumarpandey@live.in",
     description="LLNW Config API HTTP Module",
@@ -13,10 +13,7 @@ setup (
     long_description_content_type="text/markdown",
     url="https://github.com/SanjeevKumarPandey/requests_llnw_config_api",
     license='Apache License 2.0',
-    classifiers=[
-        "Operating System :: OS Independent"
-    ],
-    py_modules=['http_config_api.requests_http_config_api'],
+    py_modules=['requests_http_config_api'],
     install_requires=['requests>=2.22.0', 'requests_llnw_auth>=1.0.0'],
     python_requires='>=3.7',
 )
