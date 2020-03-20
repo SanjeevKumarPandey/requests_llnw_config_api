@@ -1,16 +1,17 @@
 # Config HTTP API
 
-## Installation
+
+### Installation
 ```
-pip install -i https://test.pypi.org/simple/ requests-ll-config-api==1.0.0
+pip install -i https://test.pypi.org/simple/ http-config-api-sanjeev.pandey==1.0.0
 ```
 
-## Initiation
+### Initiation
 ```
 api = HttpStreamingApi('http-api-fqdn', 'api-username', 'api-key')
 ```
 
-## Usage
+### Usage
 ```
 api.<api-endpoint>(<params1>,<params2>...)
 ```
